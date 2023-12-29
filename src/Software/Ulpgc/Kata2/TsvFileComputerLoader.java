@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TsvFileComputerLoader {
+public class TsvFileComputerLoader implements ComputerLoader{
     private final File file;
 
     public TsvFileComputerLoader(File file) {
